@@ -1,0 +1,22 @@
+*{
+    background-color: pink;
+}
+
+
+div{
+    background-color: rgb(64, 114, 114);
+
+    border: 5px solid blue ;
+} 
+
+.abc{
+    background-color: beige;
+}
+
+h1{
+    background-color: blueviolet;
+}
+
+#{
+    background-color: cadetblue;
+}
