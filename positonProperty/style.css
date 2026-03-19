@@ -1,0 +1,41 @@
+*{
+    margin:0 ;
+    padding:0 ;
+}
+#head{
+    padding: 10px;
+    background-color: greenyellow;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+}
+Button{
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    border: none;
+
+}
+
+
+#something{
+    border: 1px solid plum;
+    background-color: plum;
+    width: 700px;
+    height: 500px;
+    position: relative;
+}
+#ricr{
+    width: inherit ;
+    height: inherit;
+    object-fit: cover;
+}
+#vistbutton{
+    position: absolute;
+    right: 0px;
+}

@@ -1,0 +1,17 @@
+#shadowsample{
+
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid grey;
+    box-shadow: 10px 10px 5px 1px pink;
+}
+
+#textsample{
+text-shadow:  0.2px 0.2px 0 red
+}
+
+#btn{
+    
+}
