@@ -1,0 +1,63 @@
+:root{
+    --primary-color: #312a44;
+    --secondary-color: green;
+    --text-color: #c69fd5;
+}
+
+
+
+h1{
+    color: var(--primary-color);
+}
+
+h3{
+    color: var(---secondary-color);
+}
+
+p{
+    --br-radius:5px;
+    color: var(--text-color);
+}
+
+h3{
+    color: var(---secondary-color);
+}
+
+th{
+    color: var(--primary-color);
+}
+
+td{
+    color: var(--text-color);
+}
+
+button{
+    border: 1px solid yellow;
+    border-radius: 5px;
+    padding:  8px 15px;
+    box-shadow: 5px 5px grey;
+    width: 150px;
+    font-size: larger;
+    margin: 20px 30px;
+
+}
+button:hover{
+    background-color: yellow;
+    box-shadow: 5px 5px rgb(239, 239, 157);
+}
+button:active{
+    box-shadow: none;
+}
+
+#Login{
+    box-shadow: yellow ;
+}
+
+#Register{
+    box-shadow: yellow;
+}
+table{ border-collapse: collapse;
+    th,td{
+        border: 1px solid black;
+    }
+}

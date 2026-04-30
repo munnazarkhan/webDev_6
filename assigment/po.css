@@ -1,12 +1,52 @@
+:root{
+    --Heading-color: #A88FBF ;
+    --subheading-color:#5A397A;
+    --text-color: #2E0F47 ;   
+}
+
+h1{
+    color: var(--text-color);
+}
+
+legend{
+    color: var(--subheading-color);
+}
+
+b{
+    color: var(--subheading-color);
+}
+.tr1{
+    color: var(--text-color);
+}
+
+.table1{
+    color: var(--);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body{
-background-color:#eef4ff;
+background-color:#E8D8F3;
 font-family:Arial, Helvetica, sans-serif;
 color:#333;
 margin:20px;
 }
 
 fieldset{
-background:#ffffff;
+/* background:#ffffff; */
 border:1px solid #b8c7e6;
 padding:15px;
 }
