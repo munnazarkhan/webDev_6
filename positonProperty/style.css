@@ -9,7 +9,7 @@
     top: 0px;
     z-index: 99;
 }
-Button{
+button{
     padding: 10px;
     background-color: aqua;
     border-radius: 100%;
