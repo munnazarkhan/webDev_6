@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  background:url("Calgary-snow.jpg") center/cover no-repeat fixed;
+  position:relative;
+}
+
+body::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.5);
+}
+
+header,main{
+  position:relative;
+  z-index:1;
+}
+
+header h1{
+  font-size:32px;
+  text-align:center;
+  color:#fff;
+  margin:20px 0;
+}
+
+.weather-card{
+  background:rgba(255,255,255,0.15);
+  padding:20px;
+  border-radius:15px;
+  text-align:center;
+  color:#fff;
+  backdrop-filter:blur(10px);
+  transition:0.3s;
+}
+
+.weather-card:hover{
+  transform:translateY(-5px);
+}
+
+.temp{
+  font-size:50px;
+  font-weight:bold;
+}
+
+.city{
+  font-size:24px;
+  margin-top:10px;
+}
+
+#Condition{
+  font-size:16px;
+  opacity:0.9;
+}
+
+.search-box{
+  display:flex;
+  border-radius:10px;
+  overflow:hidden;
+  margin:15px 0;
+}
+
+.search-box input{
+  flex:1;
+  padding:10px;
+  border:none;
+  outline:none;
+}
+
+.search-box button{
+  padding:10px 15px;
+  border:none;
+  background:#0072ff;
+  color:#fff;
+}
+
+.detail-box{
+  margin-top:10px;
+  padding:10px;
+  background:rgba(255,255,255,0.1);
+  border-radius:10px;
+}
+
+@media(max-width:500px){
+  header h1{font-size:24px}
+  .temp{font-size:40px}
+}
